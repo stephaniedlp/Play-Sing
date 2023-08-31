@@ -10,9 +10,16 @@ dinámicamente por las secciones de una misma página (navegación por anclaje).
 
 
 Las secciones solicitadas son:
+
 • Header con menu y logo
+
 • Banner con fondo representativo del giro del cliente y mensaje con texto llamativo de inicio.
+
 • Top de canciones.
+
 • Artista destacado con comentarios del artista sobre su carrera o éxitos.
+
 • Sección de próximos conciertos y eventos.
+
 • Footer con sección de formulario de contacto, redes sociales y copyright.
+
