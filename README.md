@@ -1,8 +1,8 @@
 # Play-Sing
 
-Tare para la materia de Frontend
+Tarea para la materia de Frontend
 
-cliente requiere un sitio que le permita promocionar y divulgar información de
+Un cliente requiere un sitio que le permita promocionar y divulgar información de
 novedades y ranking de música popular actual. 
 
 Requiere un sitio que le permita navegar
