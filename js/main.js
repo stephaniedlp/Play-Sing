@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const animationContainers = document.querySelectorAll(".animation-content-2");
     const animationElement = document.querySelector('[data-w-id="23a6aa9b-683c-0e53-1e12-d9afb67a24d2"]');
     const imageElement = animationElement.querySelector('img');
-  
+    
+
     animationContainers.forEach((container) => {
       let scrollPosition = 0;
   
@@ -76,3 +77,5 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
+
+  
