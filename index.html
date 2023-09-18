@@ -7,31 +7,23 @@
   <link rel="stylesheet" type="text/css" href="./src/style.css">
   <script src="./js/main.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <title>estudio</title>
 </head>
-<body>
-  <header>
 
+<body>
+
+  <header>
     <a id="logo" onclick="mostrarMensajeInicial()">
       <img src="./img/logo.png" title="Logo app">
     </a>
     <nav class="navbar">
-
       <ul class="nav-links">
-        <li><a href="#top-songs">Top Songs</a></li>
-        <li><a href="#artist-achievements">Artist & Achievements</a></li>
-        <li><a href="#events">Events</a></li>
+        <a href="#top-songs">Top Songs</a>
+        <a href="#artist-achievements">Artist & Achievements</a>
+        <a href="#events">Events</a>
       </ul>
-
     </nav>
-
   </header>
-  
- 
-  
- 
-
 
 
   <section class="hero-section">
@@ -46,13 +38,13 @@
               sizes="(max-width: 479px) 8vw, (max-width: 767px) 7vw, 8vw"
               srcset="https://64.media.tumblr.com/ddc039b94ed800775aad59c8faf4d558/tumblr_o8jvf9Ml2u1r2geqjo1_540.gifv 500w, 
               https://64.media.tumblr.com/ddc039b94ed800775aad59c8faf4d558/tumblr_o8jvf9Ml2u1r2geqjo1_540.gifv 800w,
-               https://64.media.tumblr.com/ddc039b94ed800775aad59c8faf4d558/tumblr_o8jvf9Ml2u1r2geqjo1_540.gifv 1069w"
+                https://64.media.tumblr.com/ddc039b94ed800775aad59c8faf4d558/tumblr_o8jvf9Ml2u1r2geqjo1_540.gifv 1069w"
               alt=""
               class="oval-image-shape margins"
             >
             <h1 class="big-hero-text">music</h1>
             </div>
-           <h1 data-w-id="23a6aa9b-683c-0e53-1e12-d9afb67a24d8" class="big-hero-text">
+            <h1 data-w-id="23a6aa9b-683c-0e53-1e12-d9afb67a24d8" class="big-hero-subtitle">
             pura <span class="stroke-outline-text">musica</span> chila <span class="stroke-outline-text">indie </span>, <span class="stroke-outline-text">rock</span> y 
             <span class="stroke-outline-text">house</span>
           </h1>
@@ -60,23 +52,20 @@
       </div>
     </div>
   </section>
-  
+    
 
-  <section>
     <div data-w-id="6fe23815-5512-479a-a265-c7222e522ade" class="text-scroll-section">
       <div class="text-scroll-wrapper">
         <div class="scroll-wrapper">
-          <h1 class="h1-heading no-wrap">music / <span class="white-outline">new track  </span>/ events / <span class="white-outline">new tracks </span>/ recently played / <span class="white-outline">coming soon </span>/ top songs / <span class="white-outline">recently played </span>/ liked songs</h1>
+          <h1 class="h1-heading no-wrap">music / 
+            <span class="white-outline">new track  </span>/ events / <span class="white-outline">new tracks </span>/ recently played / <span class="white-outline">coming soon </span>/ top songs / <span class="white-outline">recently played </span>/ liked songs</h1>
         </div>
         <div class="scroll-wrapper second">
-          <h1 class="h1-heading-scroll"><span class="white-outline">new track</span> / events / <span class="white-outline">recently played</span> / liked songs / 
+          <h1 class="h1-heading-scroll "><span class="white-outline">new track</span> / events / <span class="white-outline">recently played</span> / liked songs / 
             <span class="white-outline">albums </span>/ new music /<span class="white-outline"> new tracks </span>/ top songs<span class="white-outline"> </span>/ liked songs /<span class="white-outline"> playlists</span></h1>
         </div>
       </div>
     </div>
-    
-  </section>
-
 
   <section id="top-songs" >
     <h2 id="top-songs-title"  >
@@ -88,22 +77,20 @@
       <img src="./img/fredagain/fredagain-top.JPG" alt="fred again icon">
         <h6>Fred Again</h6>
         <div class="artist-bio">
-          <p> downtempo / house / garange / hip hop</p> 
+          <p><em> downtempo / house / garange / hip hop</em> </p> 
         </div>
         <button class="btn" id="btn-modelo-1">
           <a href="https://genius.com/artists/Fred-again"> Ver mas </a> </button>
-        
         <button class="btn" id="btn-modelo-2">
           <a href="#"> Ver eventos </a> </button>
-         
       </div>
 
       <div class="artist">
         <img src="./img/top-songs/rusowsky-top.JPG" alt="canciones populares">
           <h6>Rusowsky</h6>
           <div class="artist-bio">
-              <p> bedroom pop </p> 
-               </div>
+              <p><em> bedroom pop</em></p> 
+                </div>
           <button class="btn" id="btn-modelo-1">
           <a href="https://genius.com/artists/Rusowsky">Ver mas </a></button>
 
@@ -116,7 +103,7 @@
         <img src="./img/top-songs/pinod'angio-top.JPG" alt="canciones populares">
           <h6>Pino D'Angio</h6>
           <div class="artist-bio">
-            <p> Italo disco / pop </p> 
+            <p><em> Italo disco / pop </em></p> 
           </div>
           <button class="btn" id="btn-modelo-1">
           <a href="https://genius.com/artists/Rusowsky">Ver mas </a></button>
@@ -125,36 +112,38 @@
           <a href="#wrapper-boxes">Ver eventos</a></button>
         </div>
     </div>
-</section>
+  </section>
 
-<section id="artist-achievements">
-  <h2 id="artist-achievements-title"  >
-    <a href="#artist-achievements">artist achievements</a></h2>
-  <div class="artandach-container">
+
+  <section id="artist-achievements">
+    <h2 id="artist-achievements-title"  >
+      <a href="#artist-achievements">artist achievements</a></h2>
+    <div class="artandach-container">
+      <div class="artandach" id="artandach-two">
+          <h2 id="title-artandach">rusowsky</h2>
+                <div class="project-type-subtitle">
+                  <a href="https://genius.com/artists/Rusowsky"></a>ver mas</div>
+      </div>
+
+      <div class="artandach" id="artandach-two">
+        <h2 id="title-artandach">fred again</h2>
+        <div class="project-type-subtitle">
+          <a href="https://genius.com/artists/Fred-again"></a>ver mas</div>
+      </div>
     <div class="artandach" id="artandach-two">
-        <h2 id="title-artandach" class="title-artandach">rusowsky</h2>
-        <div class="project-type-subtitle">subtitulo</div>
+      <h2 id="title-artandach">l'impératrice</h2>
+      <div class="project-type-subtitle">
+        <a href="https://genius.com/artists/Limperatrice"></a>ver mas</div>
     </div>
 
-    <div class="artandach" id="artandach-two">
-      <h2 id="title-artandach" class="title-artandach">fred again</h2>
-      <div class="project-type-subtitle">subtitulo</div>
-  </div>
   <div class="artandach" id="artandach-two">
-    <h2 id="title-artandach" class="title-artandach">l'impératrice</h2>
-    <div class="project-type-subtitle">subtitulo</div>
-</div>
-<div class="artandach" id="artandach-two">
-  <h2 id="title-artandach" class="title-artandach">pino d'angio</h2>
-  <div class="project-type-subtitle">subtitulo</div>
-</div>
-    <!-- Content for artist and achievements section goes here -->
-</section>
+    <h2 id="title-artandach" >pino d'angio</h2>
+    <div class="project-type-subtitle">
+      <a href="  https://genius.com/artists/Pino-dangio"></a>ver mas</div>
+  </div>
+  </section>
 
 
-
-
-  
   <section id="banner">
     <div id="About" class="text-scrolling-section">
       <div class="text-animation-wrapper first">
@@ -190,111 +179,122 @@
     </div>
   </section>
 
-  <section id="events" class="events">
-   
-    <h2 id="events-title"  > 
-      <a href="#events">eventos</a>
-
-      <h2 id="events-2"  >
-        <a href="#events-2">fred again < en gira > </a></h2>
-       
-    <h2 id="events-2"  >
-      <a href="#wrapper-boxes"> rusowsky < en gira > </a></h2>
-
-      
-    <h2 id="events-2"  >
-      <a href="#events"> pino d'angio < en gira > </a></h2>
+  <section id="events" >
     
-    <!-- Content for events section goes here -->
+      <h2 id="events-title"  > 
+        <a href="#events">eventos</a>  </h2>
+        
+        <div class="events-container">
+          <h5 ><a href="#">
+            fred again</a></h5>
+        </div>
 
-    <section id="wrapper-boxes">
-      <div class="wrapper" id>
-        <div class="box">
-          <div class="content">
-            <h2>Oct 12 </h2>
-            <p>Foro Alarcon | Ciudad de Mexico</p>
-            <a href="https://www.instagram.com/_rusowsky/">Ver boletos</a>
+        <div class="events-container">
+          <h5 ><a href="#">
+            fred again</a></h5>
+          <button>
+            fffff
+          </button>
+        </div>
+        <div class="events-container">
+          <h5 ><a href="#">
+            fred again</a></h5>
+          
+        </div>
+      <h6 id="events-subtitle"  >
+        <a href="https://www.fredagain.com/tour/"> fred again < en gira > </a></h6>
+      
+      <h6 id="events-subtitle"  >
+        <a href="#wrapper-boxes"> rusowsky < en gira > </a></h6>
+      
+      <section id="wrapper-boxes">
+        <div class="wrapper" >
+          <div class="box">
+            <div class="content">
+              <h2>Oct 12 </h2>
+              <p>Foro Alarcon | Ciudad de Mexico</p>
+              <a href="https://www.instagram.com/_rusowsky/">Ver boletos</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="content">
+              <h2>Oct 14 </h2>
+              <p>Foro Tims | Monterrey</p>
+              <a href="https://www.ticketmaster.com.mx/rusowsky-boletos/artist/3023162">Ver mas</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="content">
+              <h2>Oct 21</h2>
+              <p>C3 Stage | Guadalajara</p>
+              <a href="https://eventos.ticketnowmexico.com/ordertickets.asp?p=1525">Ver mas</a>
+            </div>
           </div>
         </div>
-        <div class="box">
-          <div class="content">
-            <h2>Oct 14 </h2>
-            <p>Foro Tims | Monterrey</p>
-            <a href="https://www.ticketmaster.com.mx/rusowsky-boletos/artist/3023162">Ver mas</a>
+        
+      
+      </section>
+        
+
+        <h6 id="events-subtitle"  >
+        <a href="#events"> pino d'angio</a></h6> 
+        <div class="artandach" id="artandach-3">
+          <div  id="project-subtitle-tres">
+            < Lamentablemente no hay conciertos 
+            para Pino d'Angiò programados en 2023. >
           </div>
         </div>
-        <div class="box">
-          <div class="content">
-            <h2>Oct 21</h2>
-            <p>C3 Stage | Guadalajara</p>
-            <a href="https://eventos.ticketnowmexico.com/ordertickets.asp?p=1525">Ver mas</a>
-          </div>
-        </div>
-      </div>
-      
-    
-    </section>
-      
-
-</section>
-
-
-<section id="events-2" >
-  
-    <a href="#events">fred again < en gira 2023 > </a></h2>
-    
-  <!-- Content for events section goes here -->
-
-  <section id="wrapper-boxes">
-    <div class="wrapper">
-      <div class="box" id="box-seccion2">
-        <div class="content" >
-          <h2>Oct 12 </h2>
-          <p>Foro Alarcon | Ciudad de Mexico</p>
-          <a href="https://www.instagram.com/_rusowsky/">Ver boletos</a>
-        </div>
-      </div>
-      <div class="box" id="box-seccion2">
-        <div class="content">
-          <h2>Oct 14 </h2>
-          <p>Foro Tims | Monterrey</p>
-          <a href="https://www.ticketmaster.com.mx/rusowsky-boletos/artist/3023162">Ver mas</a>
-        </div>
-      </div>
-      <div class="box" id="box-seccion2">
-        <div class="content">
-          <h2>Oct 21</h2>
-          <p>C3 Stage | Guadalajara</p>
-          <a href="https://eventos.ticketnowmexico.com/ordertickets.asp?p=1525">Ver mas</a>
-        </div>
-      </div>
-    </div>
-    
-  
   </section>
-    
-
-</section>
 
 
-  <div class="button-wrapper-with-margin">
-  
-    <a href="https://github.com/stephaniedlp" 
-    class="main-button-white-background ">
-    <div class="button-text-black"> contactame
+
+    <div class="button-wrapper-with-margin">
+      <div class="main-button-white-background">
+        <a href="https://github.com/stephaniedlp">
+      <div > comunicate aquí
+      </div>
+        <img src="https://assets.website-files.com/64ac0ccc798df5698f1e9b53/64ac0ccc798df5698f1e9b7c_right-arrow.png" loading="lazy" alt="" sizes="20px" srcset="https://assets.website-files.com/64ac0ccc798df5698f1e9b53/64ac0ccc798df5698f1e9b7c_right-arrow-p-500.png 500w, https://assets.website-files.com/64ac0ccc798df5698f1e9b53/64ac0ccc798df5698f1e9b7c_right-arrow.png 512w" 
+        class="right-arrow-icon" >
+      </a>
+      </div>    
     </div>
-      <img src="https://assets.website-files.com/64ac0ccc798df5698f1e9b53/64ac0ccc798df5698f1e9b7c_right-arrow.png" loading="lazy" alt="" sizes="20px" srcset="https://assets.website-files.com/64ac0ccc798df5698f1e9b53/64ac0ccc798df5698f1e9b7c_right-arrow-p-500.png 500w, https://assets.website-files.com/64ac0ccc798df5698f1e9b53/64ac0ccc798df5698f1e9b7c_right-arrow.png 512w" 
-      class="right-arrow-icon" >
-    </a>
-  </div>
-  
-  
+    
+    
+    
   <footer id="footer">
-    <h1>Formulario de contactos</h1>
-    <h3>Contactis adicionales | Redes sociales</h3>
-    <p>Desarrollares e inmobiliarios ISI &copy; 2023</p>
+
+    <div class="contacto-container">
+
+      <h2>Contacto</h2>
+
+      <form id="contacto-form">
+
+        <input type="text" id="nombre" placeholder="Nombre" required>
+
+        <input type="email" id="email" placeholder="Email" required>
+
+        <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+
+      </form>
+
+    </div>
+
+    <div class="redes-sociales-container">
+
+      <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    </div>
+
+    <p>Desarrollares ISI &copy; 2023</p>
+
   </footer>
-  
+
+    
   <button id="btn-ir-arriba" >
     <svg viewBox="0 0 24 24">
       <path d="m4 16 8-8 8 8"></path>

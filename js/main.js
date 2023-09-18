@@ -2,17 +2,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const animationContainers = document.querySelectorAll(".animation-content-2");
     const animationElement = document.querySelector('[data-w-id="23a6aa9b-683c-0e53-1e12-d9afb67a24d2"]');
     const imageElement = animationElement.querySelector('img');
-    
-
+ 
+ 
+    // animacion para .animation-content-2 Banner
     animationContainers.forEach((container) => {
       let scrollPosition = 0;
   
       function updateAnimation() {
-        scrollPosition -= 0.03 // Adjust the value to control the animation speed
-        container.style.transform = `translate3d(${scrollPosition}%, 0px, 0px) scale3d(1, 1, 1) rotateX(9deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`;
+        scrollPosition -= 0.1 // Adjust the value to control the animation speed
+        container.style.transform = `translate3d(${scrollPosition}%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`;
         requestAnimationFrame(updateAnimation);
       }
-  
       updateAnimation();
     });
 
@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("DOMContentLoaded", function() {
     const scrollWrapper = document.querySelector(".scroll-wrapper");
     const headings = scrollWrapper.querySelectorAll(".h1-heading");
+    const headingTwo = scrollWrapper.querySelectorAll(".h1-heading");
     
     window.addEventListener("scroll", function() {
       const scrollAmount = window.scrollY;
@@ -79,3 +80,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   
+  function mostrarMensajeInicial() {
+
+    if (confirm('Página en desarrollo!')) {
+      alert('TQM! <3');
+    } else {
+      alert('...');
+    }
+  
+  }
